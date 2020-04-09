@@ -53,7 +53,6 @@ function createCanvasTable(listWrappers)
   keyPartners.style.position = "absolute";
   keyPartners.style.left = 0 + "px";
   keyPartners.style.width = myWidth + "px";
-  keyPartners.style.height = maxHeight + "px";
 
   keyActivities.style.position = "absolute";
   keyActivities.style.left = myMargin * 3 + myWidth + "px";
@@ -92,6 +91,8 @@ function createCanvasTable(listWrappers)
   let heights = [height1, height2 + height3 + myMargin * 2, height4, height5, height6 + height7 + myMargin * 2, height8, height9];
 
   let maxHeight = Math.max(...heights);
+
+  keyPartners.style.height = maxHeight + "px";
 
   keyResources.style.position = "absolute";
   keyResources.style.top = height2 + myMargin * 2 + "px";
