@@ -5,3 +5,7 @@ Business Model Canvas Trello Plugin
 2) Enable dev mode in Chrome
 3) Click: Load Unpacked and point to the extension folder
 4) Enable thee xtension
+
+Screenshot:
+
+![](images/screenshot.jpg)
